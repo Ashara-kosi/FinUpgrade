@@ -25,3 +25,17 @@ img{
   max-width: 100%;
   height: auto;
 }
+
+
+h2{
+  color: #00945e;
+}
+
+.headers::after{
+  content: "";
+  display:block;
+  height: 4px;
+  width: 50px;
+  margin-top: 20px;
+  background-color: #00945e;
+}
