@@ -31,7 +31,7 @@ img{
   color: #00945e;
 }
 
-.headers::after{
+.headers::after,.modal-head:after{
   content: "";
   display:block;
   height: 4px;
@@ -117,3 +117,4 @@ img{
   width: 200px;
 }
 
+.modal-head{}
