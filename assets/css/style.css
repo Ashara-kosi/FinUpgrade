@@ -1,26 +1,27 @@
-.offcanvas-header{ display:none; }
-
-@media (max-width: 992px) {
-  .offcanvas-header{ display:block; }
-  .navbar-collapse {
-    position: fixed;
-    top:0; 
-    bottom: 0;
-    left: 100%;
-    width: 100%;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    overflow-y: auto;
-    visibility: hidden;
-    background-color: black;
-    transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
-  }
-  .navbar-collapse.show {
-    visibility: visible;
-    transform: translateX(-100%);
-  }
+html,body{
+  font-family: 'Lato', sans-serif;
 }
 
-nav{
-color: black;
+.thenav{
+  padding: 20px;
+
+}
+
+.navbar-light .navbar-nav .thenav-link{
+  color: black;
+}
+
+.navbar-light .navbar-nav .thenav-link:hover{
+  color: #00945e;
+  font-weight: bolder;
+}
+
+.navbar-brand{
+  font-size: 150%;
+  font-weight: 600;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
 }
