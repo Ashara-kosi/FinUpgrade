@@ -3,7 +3,7 @@ html,body{
 }
 
 .thenav{
-  padding: 20px;
+  padding: 1.5rem;
   box-shadow: -1px 11px 15px -2px rgba(224,217,224,0.83);
 }
 
@@ -17,7 +17,7 @@ html,body{
 }
 
 .navbar-brand{
-  font-size: 150%;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
@@ -38,4 +38,10 @@ h2{
   width: 50px;
   margin-top: 20px;
   background-color: #00945e;
+}
+
+.image-stage{
+  border: 1px solid #00945e;
+  margin: 15px;
+  border-radius: 2px;
 }
