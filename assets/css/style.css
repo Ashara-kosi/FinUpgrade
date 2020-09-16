@@ -48,9 +48,17 @@ img{
 
 }
 
+.about-body{
+  background-color: #f7fafe;
+  color: #6e7c90;
+  padding: 2rem 2rem 4rem 2rem;
+}
+
 .about-us{
   margin-left: 40%;
   margin-bottom: 2rem;
+  color: black;
+  font-size: 200%;
 }
 
 .headers::after,.modal-head:after{
