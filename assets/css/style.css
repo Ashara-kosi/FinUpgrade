@@ -5,7 +5,11 @@ html,body{
 .thenav{
   padding: 1.5rem;
  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
- z-index: 9999999999;
+ z-index: 99999;
+}
+
+.modal{
+  z-index: 999999;
 }
 
 .navbar-light .navbar-nav .thenav-link{
@@ -89,7 +93,7 @@ img{
 
 #bubbles { height: 100%;
 position: absolute;
-    z-index: 9999999;
+    z-index: 9999;
 }
 .bubble {
     width: 60px;
