@@ -59,12 +59,28 @@ img{
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 5rem;
   height: 80vh;
-  /*background-attachment: fixed;*/
-}
+  color: white;
+ }
 
+ .lead{
+  width: 15rem;
+  margin-top: 2%;
+ }
 
+ .jumbo-buttons{
+  border: 2px solid white;
+  background: inherit;
+  padding: 0.4rem 3rem;
+  margin-left: 5px;
+  color:white;
+ }
+
+  .jumbo-buttons:hover{
+    background-color: white;
+    color: black;
+
+  }
 
 
 
