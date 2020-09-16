@@ -36,6 +36,22 @@ img{
   color: #00945e;
 }
 
+.headers-new{
+  margin-top: 7rem;
+}
+
+
+.sub-head{
+  max-width: 800px;
+  width: auto;
+
+}
+
+.about-us{
+  margin-left: 40%;
+  margin-bottom: 2rem;
+}
+
 .headers::after,.modal-head:after{
   content: "";
   display:block;
