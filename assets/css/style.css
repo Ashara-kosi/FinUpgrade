@@ -46,6 +46,35 @@ img{
   border-radius: 2px;
 }
 
+.btn-modified{
+    color: #fff;
+    padding: 0.4rem 3rem;
+    background: #00945E;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.jumbotron{
+  background-image: url(../img/image.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 5rem;
+  height: 80vh;
+  /*background-attachment: fixed;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* contact section */
 .contact-section{
   height: 300px;
@@ -116,5 +145,3 @@ img{
   background-color: #ffffff;
   width: 200px;
 }
-
-.modal-head{}
