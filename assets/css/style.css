@@ -268,6 +268,10 @@ position: absolute;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
 }
 
+.contact-us-head{
+  margin-left: 45%;
+}
+
 /* subscribe section */
 form {
   border: 3px solid #f1f1f1;
@@ -288,7 +292,7 @@ input[type=text], input[type=submit] {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #00945e;
   color: white;
   border: none;
 }
@@ -301,7 +305,7 @@ input[type=submit]:hover {
 /* footer */
 .full-footer{
   background-color: #323E48;
-  color: #ffffff;
+    color: #ffffff;
 }
 .aboutus-footer{
   /* display: flex; */
@@ -315,4 +319,38 @@ input[type=submit]:hover {
 .line{
   background-color: #ffffff;
   width: 200px;
+}
+
+/*copyright section*/
+ .copyright{
+  background-color: #1F2430;
+  color: white;
+ }
+
+ .copyright p{
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+ }
+
+ /* testimonial carousel */
+.testimonial{
+  /*text-align: center;*/
+  padding:50px;
+}
+.testimonial h3{
+  padding: 20px;
+}
+.testimonial-text{
+  padding:20px;
+  margin-left: 40%;
+}
+.testimonial-context{
+  text-align: center;
+  padding: 20px;
+  border:3px solid  #00945e;
+  border-radius: 2px;
+}
+.picture{
+  border-radius: 50%;
+  border: 3px solid #00945e;
 }
