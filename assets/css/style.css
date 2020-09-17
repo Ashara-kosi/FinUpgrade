@@ -269,38 +269,39 @@ position: absolute;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
 }
 
-.contact-us-head{
-  margin-left: 45%;
-}
 
 /* subscribe section */
-form {
-  border: 3px solid #f1f1f1;
+.home-newsletter {
+padding: 80px 0;
+background: rgba(0, 148, 94, 0.7);
 }
 
-.wrapper {
-  padding: 20px;
-  background-color: #f1f1f1;
+.home-newsletter .single {
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.home-newsletter .single h2 {
+font-size: 22px;
+color: white;
+text-transform: uppercase;
+margin-bottom: 40px; }
+.home-newsletter .single .form-control {
+height: 50px;
+background: white;
+border-color: transparent;
+border-radius: 20px 0 0 20px; }
+.home-newsletter .single .form-control:focus {
+box-shadow: none;
+border-color: #243c4f; }
+.home-newsletter .single .btn {
+min-height: 50px; 
+border-radius: 0 20px 20px 0;
+background: #323E48;
+color: #fff;
 }
 
-input[type=text], input[type=submit] {
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-input[type=submit] {
-  background-color: #00945e;
-  color: white;
-  border: none;
-}
-
-input[type=submit]:hover {
-  opacity: 0.8;
-}
 
 
 /* footer */
@@ -341,8 +342,7 @@ input[type=submit]:hover {
   padding: 20px;
 }
 .testimonial-text{
-  padding:20px;
-  margin-left: 40%;
+  padding:20px
 }
 .testimonial-context{
   text-align: center;
@@ -367,3 +367,5 @@ input[type=submit]:hover {
   padding: 4rem 0;
   margin-top: 1.5rem;
 }
+
+/*newletter*/
