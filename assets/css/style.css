@@ -334,7 +334,6 @@ input[type=submit]:hover {
 
  /* testimonial carousel */
 .testimonial{
-  /*text-align: center;*/
   padding:50px;
 }
 .testimonial h3{
@@ -347,10 +346,27 @@ input[type=submit]:hover {
 .testimonial-context{
   text-align: center;
   padding: 20px;
-  border:3px solid  #00945e;
+  border:2px solid  #00945e;
   border-radius: 2px;
 }
 .picture{
   border-radius: 50%;
-  border: 3px solid #00945e;
+  border: 2px solid #00945e;
+}
+
+/*Business Plan*/
+
+.business-plan-head{
+  margin-left: 40%;
+}
+
+.head-icons{
+  color: #00945e;
+}
+
+.mid-section{
+  color: #999999;
+  background-color: #16161a;
+  padding: 4rem 0;
+  margin-top: 1.5rem;
 }
