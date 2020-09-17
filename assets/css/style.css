@@ -269,38 +269,34 @@ position: absolute;
 }
 
 /* subscribe section */
-.subscribe{
-  background-color: #47977c;
-  margin-top: 5px;
-  padding: 100px;
-  text-align: center;
+form {
+  border: 3px solid #f1f1f1;
+}
+
+.wrapper {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
   color: white;
+  border: none;
 }
 
-.subscribe-text{
-  margin-top: 50px;
-}
-.subscribe-form{
- margin-top: 50px;
+input[type=submit]:hover {
+  opacity: 0.8;
 }
 
-#button-addon2{
-    background:  #fff;
-    color: #00945E;
-  }
-
-/*.form-input{
-   padding: 0.4rem 3rem;
-  border: 1px solid black;
-  border-radius: 2px;
-}
-.form-button{
-    color: #00945E;   
-    padding: 0.4rem 3rem;
-    background:  #fff;
-    border: 1px solid black;
-    border-radius: 2px;
-}*/
 
 /* footer */
 .full-footer{
