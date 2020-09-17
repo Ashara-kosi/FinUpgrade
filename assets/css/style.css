@@ -284,18 +284,23 @@ position: absolute;
  margin-top: 50px;
 }
 
-.form-input{
-   padding: 0.4rem 2rem;
-  border: 1px solid white;
+#button-addon2{
+    background:  #fff;
+    color: #00945E;
+  }
+
+/*.form-input{
+   padding: 0.4rem 3rem;
+  border: 1px solid black;
   border-radius: 2px;
 }
 .form-button{
     color: #00945E;   
     padding: 0.4rem 3rem;
     background:  #fff;
-    border: none;
-    border-radius: 0.3rem;
-}
+    border: 1px solid black;
+    border-radius: 2px;
+}*/
 
 /* footer */
 .full-footer{
