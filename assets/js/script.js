@@ -1,4 +1,10 @@
-  
+let preloader = document.querySelector(".spinner-wrapper");
+
+let preloaderFunction = () =>{
+
+        preloader.style.display = 'none';   
+}
+
 
 $('.owl-carousel').owlCarousel({
      loop:true,
