@@ -5,7 +5,6 @@ let preloaderFunction = () =>{
         preloader.style.display = 'none';   
 }
 
-window.addEventListener('load', preloaderFunction)
 
 $('.owl-carousel').owlCarousel({
      loop:true,
