@@ -1,5 +1,7 @@
 body{
     background-image: url(../img/Natural-Green-Outdoors-Simple-Background-Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 input:focus{
     outline: none;
@@ -10,7 +12,7 @@ input:focus{
 .signup-forms{
     margin: 0 auto;
     text-align: center;
-    padding: 70px;  
+    padding: ;  
 }
 .form-section{
     background-color: #fff; 
@@ -116,7 +118,7 @@ input:focus{
         font-size: 15px;
     }
  }
- @media all and (min-width: 430px) and (max-width: 550px) {
+/* @media all and (min-width: 430px) and (max-width: 550px) {
     .form-section{
         width: 300px; 
        
@@ -193,4 +195,4 @@ input:focus{
         /* margin-top: 10px; */
         margin-bottom: 30px;
     }
- }
+ }*/
