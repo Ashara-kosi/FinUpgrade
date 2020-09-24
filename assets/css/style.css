@@ -354,7 +354,15 @@ color: #fff;
   border-radius: 50%;
   border: 2px solid #00945e;
 }
+.owl-nav{
 
+}
+.carousel-next{
+  font-size: 40px;
+}
+.carousel-prev{
+  font-size: 40px;
+}
 /*Business Plan*/
 
 .head-icons{

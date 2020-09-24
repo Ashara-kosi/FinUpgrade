@@ -85,21 +85,21 @@ input:focus{
         width: 321px;
         height: 30px;
         margin-top: 10px; 
-        font-size: 12px;
+        font-size: 15px;
         padding-left: 8px;
     }
     .email{
         width: 321px;
         height: 30px;
         margin-top: 10px; 
-        font-size: 12px;
+        font-size: 15px;
         padding-left: 8px;
     }
     .password{
         width: 321px;
         height: 30px;
         margin-top: 10px; 
-        font-size: 12px;
+        font-size: 15px;
         padding-left: 8px;
     }
     .submit-button{
@@ -165,25 +165,25 @@ input:focus{
  }
  @media all and (max-width:350px) {
     .form-section{
-        width: 200px; 
+        width: 250px; 
     }
     .create{
         font-size: 20px;
     }
     .username{
-        width: 140px;
+        width: 180px;
     }
     .email{
-        width: 140px;
+        width: 180px;
     }
     .password{
-        width: 140px;
+        width: 180px;
     }
     .form-check{
         font-size: 12px;
     }
     .submit-button{ 
-        width: 100px;
+        width: 120px;
     }
     .login{
         font-size: 8px;
