@@ -103,11 +103,19 @@ img{
   border: 2px solid white;
   background: inherit;
   padding: 0.4rem 3rem;
-  margin-left: 5px;
+  margin-left: 50%;
+  color:white;
+ }
+ .jumbo-buttons-reg{
+    border: 2px solid white;
+  background: inherit;
+  padding: 0.4rem 3rem;
   color:white;
  }
 
-  .jumbo-buttons:hover{
+
+  .jumbo-buttons:hover,
+  .jumbo-buttons-reg:hover{
     background-color: white;
     color: black;
 
@@ -116,6 +124,15 @@ img{
   .welcome-img{
     padding: 20px;
   }
+
+  .welcome-p{
+    font-size: 130%;
+    line-height: 1.6;
+  }
+
+ul li{
+  list-style-position: inside;
+}
 
 #bubbles { height: 100%;
 position: absolute;
@@ -258,7 +275,6 @@ position: absolute;
 /* contact section */
 .contact-text{
   color: #00945e;
-  margin: 2rem;
 }
 .contact-card{
   margin-top: 2rem;
@@ -267,6 +283,18 @@ position: absolute;
 .contact-card:hover{
   transform: translateY(-10px);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.contact-section{
+  margin-bottom: 5rem;
+}
+
+.logos{
+  font-size: 1.5rem;
+}
+
+.logos i {
+  margin-left: 1.24rem;
 }
 
 
@@ -376,7 +404,7 @@ color: #fff;
   margin-top: 1.5rem;
 }
 
-/*newletter*/
+/*newsletter*/
 
 /*preloader style*/
 .spinner {
