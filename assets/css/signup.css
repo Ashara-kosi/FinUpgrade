@@ -1,4 +1,5 @@
 body{
+    font-family: 'Lato', sans-serif;
     background-image: url("../img/Natural-Green-Outdoors-Simple-Background-Image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,10 +15,9 @@ form{
     display: block;
     background-color: #fff;
     margin: auto;
-    padding: 3rem;
+    padding: 5rem;
+    padding-right: 7rem;
     border-radius: 5px;
-    width: 40vw;
-
 }
 
 input[type=text],
@@ -27,10 +27,26 @@ input[type=password]{
     margin-top: 1.5rem;
     width: 100%;
     border: none;
-    box-shadow: 0 10px 10px -5px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     border-radius: 4px;
-    width: 100%;
+    width: 120%;
+}
 
+.terms-cond{
+    width: 100%;
+}
+
+input[type=submit]{
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: lightgreen;
+    border-radius: 2px;
+}
+
+
+a:hover{
+    text-decoration: none;
+    color: lightgreen;
 }
