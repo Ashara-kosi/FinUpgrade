@@ -1,198 +1,36 @@
 body{
-    background-image: url(../img/Natural-Green-Outdoors-Simple-Background-Image.jpg);
-    background-repeat: no-repeat;
+    background-image: url("../img/Natural-Green-Outdoors-Simple-Background-Image.jpg");
     background-size: cover;
-}
-input:focus{
-    outline: none;
-}
-.submit-button:focus{
-    outline: none;
-}
-.signup-forms{
-    margin: 0 auto;
-    text-align: center;
-    padding: ;  
-}
-.form-section{
-    background-color: #fff; 
-    width: 500px; 
-    margin: 0 auto;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-.input-fields{
-    margin-top: 10px;
-    margin-bottom: 60px;
-}
-.username{
-    width: 421px;
-    height: 40px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-    border-radius: 2px;
-    border: 1px solid white; 
-    margin-top: 15px; 
-    font-size: 15px;
-    padding-left: 10px;
-}
-.email{
-    width: 421px;
-    height: 40px;
-    border-radius: 2px;
-    border: 1px solid white;
-    border-bottom: 0 none;
-	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-    margin-top: 15px;
-    font-size: 15px;
-    padding-left: 10px;
-}
-.password{
-    width: 421px;
-    height: 40px;
-    border-radius: 2px; 
-    border: 1px solid white;
-    border-bottom: 0 none;
-	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-    margin-top: 15px;
-    font-size: 15px;
-    padding-left: 10px;
-}
-.submit-button{
-    border: 1px solid transparent;
-    border-bottom: 0 none;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-    background-color:lightgreen;
-    height: 40px;
-    width: 360px;
-    border-radius: 2px;
-    margin-top: 20px; 
-}
-.login{
-    padding-top: 70px;
-    font-size: 13px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
 }
 
-/* Media queries */
-@media all and (min-width: 550px) and (max-width: 768px) {
-    .form-section{
-        /* background-color: #fff;  */
-        width: 400px; 
-        margin: 0 auto;
-        padding-top: 20px;
-        padding-bottom: 10px;
-        text-align: center;
-    }
-    .username{
-        width: 321px;
-        height: 30px;
-        margin-top: 10px; 
-        font-size: 12px;
-        padding-left: 8px;
-    }
-    .email{
-        width: 321px;
-        height: 30px;
-        margin-top: 10px; 
-        font-size: 12px;
-        padding-left: 8px;
-    }
-    .password{
-        width: 321px;
-        height: 30px;
-        margin-top: 10px; 
-        font-size: 12px;
-        padding-left: 8px;
-    }
-    .submit-button{
-        height: 30px;
-        width: 260px;
-        margin-top: 15px; 
-        font-size: 12px;
-    }
-    .login{
-        padding-top: 50px;
-        font-size: 10px;
-    }
-    .form-check{
-        font-size: 15px;
-    }
- }
-/* @media all and (min-width: 430px) and (max-width: 550px) {
-    .form-section{
-        width: 300px; 
-       
-    }
-    .username{
-        width: 221px;
-    }
-    .email{
-        width: 221px;
-    }
-    .password{
-        width: 221px;
-    }
-    .form-check{
-        font-size: 12px;
-    }
-    .submit-button{
-        width: 160px;
-    }
- }
- @media all and (min-width: 300px) and (max-width: 430px) {
-    .form-section{
-        width: 250px; 
-    }
-    .create{
-        font-size: 20px;
-    }
-    .username{
-        width: 180px;
-    }
-    .email{
-        width: 180px;
-    }
-    .password{
-        width: 180px;
-    }
-    .form-check{
-        font-size: 12px;
-    }
-    .submit-button{ 
-        width: 120px;
-    }
-    .login{
-        font-size: 8px;
-    }
- }
- @media all and (max-width:350px) {
-    .form-section{
-        width: 200px; 
-    }
-    .create{
-        font-size: 20px;
-    }
-    .username{
-        width: 140px;
-    }
-    .email{
-        width: 140px;
-    }
-    .password{
-        width: 140px;
-    }
-    .form-check{
-        font-size: 12px;
-    }
-    .submit-button{ 
-        width: 100px;
-    }
-    .login{
-        font-size: 8px;
-        padding-top: 20px;
-    }
-    .input-fields{
-        /* margin-top: 10px; */
-        margin-bottom: 30px;
-    }
- }*/
+section{
+    display: flex;
+}
+
+form{
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    padding: 3rem;
+    border-radius: 5px;
+    width: 40vw;
+
+}
+
+input[type=text],
+input[type=email],
+input[type=password]{
+    display: block;
+    margin-top: 1.5rem;
+    width: 100%;
+    border: none;
+    box-shadow: 0 10px 10px -5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 4px;
+    width: 100%;
+
+}
