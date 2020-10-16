@@ -4,7 +4,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    overflow: hidden;
 }
 
 section{
@@ -22,7 +21,8 @@ form{
 
 input[type=text],
 input[type=email],
-input[type=password]{
+input[type=password],
+textarea{
     display: block;
     margin-top: 1.5rem;
     width: 100%;
