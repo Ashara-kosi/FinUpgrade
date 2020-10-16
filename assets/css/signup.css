@@ -4,7 +4,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    overflow: hidden;
 }
 
 section{
@@ -49,4 +48,16 @@ input[type=submit]{
 a:hover{
     text-decoration: none;
     color: lightgreen;
+}
+
+textarea{
+     display: block;
+    margin-top: 1.5rem;
+    width: 100%;
+    border: none;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 4px;
+    width: 120%;
 }
