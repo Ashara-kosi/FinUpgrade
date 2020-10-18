@@ -1,0 +1,182 @@
+body,html{
+    font-family: 'Lato', sans-serif;
+    background-image: url("../img/Natural-Green-Outdoors-Simple-Background-Image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+ img{
+		max-width: 100%;
+		height: auto;
+	}
+
+
+	.wrapper{
+			display: flex;
+			height: 84vh;
+			justify-content: center;
+			overflow: hidden;
+			margin-top: 5vh;
+			flex: 1;
+					
+			}
+
+
+				.first-half{
+						background-color: lightgreen;
+						color: black;
+						border-top-left-radius: 5px;
+						border-bottom-left-radius: 5px;
+					}
+
+				.first-half div{
+						margin-top: 7rem;
+						width: 15vw;
+						margin: 9rem 8rem 2rem 8rem;
+					}
+
+					.first-half div section:first-child{
+						font-size: 3rem;
+						
+					}
+
+					.first-half div section:last-child{
+						font-size: 1.8vw;
+						margin-top: 3rem;
+
+					}
+
+
+				.second-half{
+						padding: 2rem 4rem;
+						width: 600px;
+						background-color: #fff;
+						border-top-right-radius: 5px;
+						border-bottom-right-radius: 5px;
+						color: #808080;
+						overflow: hidden;
+					}
+
+				form{
+						padding: 0rem 1.4rem 2rem 1rem;
+						text-align: center;
+						overflow: hidden;
+						overflow-y: hidden;
+					}
+
+				.create-account{
+						color: #454e99;
+						font-size: 1.6rem;
+					}
+
+				.first-panel-header{
+						margin-bottom: 1.8rem;
+					}
+
+				.first-panel-header h2{
+					   color: #454e99;
+					}
+
+				#email,
+				input[type=text],
+				textarea {
+						margin-left: auto;
+						margin-right: auto;
+						width: 85%;
+						display: block;
+						outline: none;
+						margin-top: 15px;
+						border: none;
+						border-bottom: 2px solid #D8D8DD;
+						color: black;
+						padding: 0.8rem 0.5rem 0.5rem 0.5rem ;
+						font-size: 1.6rem;
+						border-top-right-radius: 3px;
+						border-top-left-radius: 3px;
+					}
+
+
+				#email:focus,
+				input[type=text]:focus,
+				textarea{
+						border-bottom: 2px solid #454e99;
+
+					}
+
+
+				button{
+						background-color: lightgreen;
+						color: black;
+						border: 1px solid transparent;
+						border-radius: 3px;
+						padding: 1.2rem 2.5rem;
+						text-align: center;
+						font-size: 1.35rem;
+						letter-spacing: 1.5px;
+						margin-top: 15px;
+					}
+
+				button:focus{
+						outline: none;
+					}
+
+				button:hover{
+						background: darkgreen;
+						color: white;
+					}
+
+				button:focus {
+  						outline: none;
+  						box-shadow: 0 0 0 3px #CC74C5;
+					}
+
+					/**************************Media Queries****************************************/
+
+/**********************Tablet*******************/
+@media screen and (max-width:768px ) {
+	.first-half{
+		display: none;
+	}
+
+	.second-half{
+		border-radius: 5px;
+		padding: 2rem 0rem;
+		margin: 1rem;
+		overflow-y: scroll;
+	}
+
+	button{
+		padding: 1vw 3vw;
+	}
+
+	#email,
+	input[type=text]{
+		font-size: 13px;
+	}
+}      
+
+
+
+/************************************Mobile*****************************/
+@media screen and (max-width: 480px) {
+	button{
+		padding: 2vw 4vw;
+	}
+
+
+.first-panel-header h2{
+	font-size: 1.5em;
+}
+
+.first-panel-header h4{
+	font-size: 0.897em
+}
+
+button{
+	margin-top: 0.5vw;
+}
+
+}
+
+/*********************************************************************/

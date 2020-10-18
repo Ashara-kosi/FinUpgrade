@@ -5,35 +5,104 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/signup.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
-     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/contact.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>FinUpgrade Nigeria</title>
   </head>
   <body>
-    <section class="h-100">
-         <form action="" class="my-auto">
-          <h4 class="text-center">Contact Us</h4>
-           <input type="text" name="username" placeholder="Name">
-           <input type="email" name="email" placeholder="Email">
-           <input type="text" name="subject" placeholder="Subject">
-           <textarea name="message" placeholder="Type your message here">
-             
-           </textarea>
-         <p>
-         <input type="submit" name="submit" class="py-2 ml-4 mt-4">
-       </p>
+    <body>
 
-         </form>
-    </section>
+      <div class="wrapper">
+        <div class="first-half">
+          <div>
+            <section> <p style="color: #454e99;"> Address <i class='fas fa-map-marker-alt'></i> <p>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+          </section>
+          <section>
+            <p  style="color: #454e99;"> Phone Number <i class='fas fa-phone'></i> </p>
+          <p>
+            555-123-6758
+          </p>
+          </section>
+        </div>
+      </div>
+        <div class="second-half">
+          <div>
+            <!-- PHP script -->
+            <form action="" method="POST" id="validate_form">
+
+              <fieldset id="first-panel" data-aos="fade-up" data-aos-duration="900">
+                <div class="text-center first-panel-header" >
+            <h2 class="text-center">Send Message</h2>
+            </div>
+
+                <input 
+                  type="text" 
+                  name="fullname" 
+                  id="password" 
+                  placeholder="Full Name"
+                  required 
+                  autocomplete="on"
+                >
+
+                <input 
+                  name="signup_email" 
+                  id="email" 
+                  placeholder="Your email"
+                  data-parsley-required 
+                  autofocus="true" 
+                  autocomplete="on" 
+                >
+
+                <input 
+                  type="text" 
+                  name="subject" 
+                  id="password" 
+                  placeholder="Subject"
+                  required 
+                  autocomplete="on"
+                >
+
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="Type your message">
+                  
+
+                </textarea>
+
+                  <button  
+                    id="register"
+                    type="submit" 
+                    value="register" 
+                    >
+                    Send Message
+                    <i class='fas fa-location-arrow'></i>
+                  </button>
+              </fieldset>
+
+            </form>
+
+<!-- Contact Form ends here -->
+          </div>  
+        </div>
+      </div>
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
+
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
