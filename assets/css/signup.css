@@ -21,8 +21,7 @@ form{
 
 input[type=text],
 input[type=email],
-input[type=password],
-textarea{
+input[type=password]{
     display: block;
     margin-top: 1.5rem;
     width: 100%;

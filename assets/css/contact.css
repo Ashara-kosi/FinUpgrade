@@ -37,7 +37,7 @@ body,html{
 					}
 
 					.first-half div section:first-child{
-						font-size: 3rem;
+						font-size: 2vw;
 						
 					}
 
@@ -79,8 +79,8 @@ body,html{
 					}
 
 				#email,
-				input[type=text],
-				textarea {
+				input[type=text]
+				 	{
 						margin-left: auto;
 						margin-right: auto;
 						width: 85%;
@@ -91,6 +91,23 @@ body,html{
 						border-bottom: 2px solid #D8D8DD;
 						color: black;
 						padding: 0.8rem 0.5rem 0.5rem 0.5rem ;
+						font-size: 1.6rem;
+						border-top-right-radius: 3px;
+						border-top-left-radius: 3px;
+					}
+
+					textarea {
+						margin-left: auto;
+						margin-right: auto;
+						width: 85%;
+						height: 20vh;
+						display: block;
+						outline: none;
+						margin-top: 15px;
+						border: none;
+						border-bottom: 2px solid #D8D8DD;
+						color: black;
+						padding: 0;
 						font-size: 1.6rem;
 						border-top-right-radius: 3px;
 						border-top-left-radius: 3px;
@@ -114,7 +131,7 @@ body,html{
 						text-align: center;
 						font-size: 1.35rem;
 						letter-spacing: 1.5px;
-						margin-top: 15px;
+						margin-top: 2vh;
 					}
 
 				button:focus{
